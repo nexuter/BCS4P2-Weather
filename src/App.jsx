@@ -110,7 +110,7 @@ function App() {
             {parseInt(weatherData.main.temp_min, 10)}℃)
           </div>
           <div>Feels like {parseInt(weatherData.main.feels_like, 10)}℃</div>
-          <div>Humidity {parseInt(weatherData.main.humidity, 10)}℃</div>
+          <div>Humidity {parseInt(weatherData.main.humidity, 10)}%</div>
           <div>Wind {parseInt(weatherData.wind.speed, 10)}m/s</div>
         </div>
       ) : (
